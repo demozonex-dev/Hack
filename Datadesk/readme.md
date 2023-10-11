@@ -6,6 +6,7 @@ You should have received an invitation by email to join the Hackaton, so you wil
 
 1. Go to https://portal.azure.com
 
+2. Sign in with your credential
 
 3. If you get the following screen Click **Ask Later Button** (no need to set up the multifactor authentication)
 

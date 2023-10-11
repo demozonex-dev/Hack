@@ -146,7 +146,7 @@ Before to begin you need to change some settings.
 
     1. In the left pane select **Keys and Enpoint**, copy **KEY 1** and the Language APIs URL
 
-3. Create deployment (See Section **Create deployment** below)
+3. Create deployment (See Section [Create deployment](#create-deployment))
 
 2. Open the XXXX-site app service.
 
