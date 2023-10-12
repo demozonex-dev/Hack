@@ -27,7 +27,7 @@ You should have received an invitation by email to join the Hackaton, so you wil
 
 ![](./Pictures/Portal2.png)
 
-6. You should see your team's group resource
+6. You should see your team's group resource and the rgh-lef-SharedData
 
 ![](./Pictures/Portal3.png)
 
