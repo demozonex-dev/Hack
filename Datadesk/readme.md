@@ -1,5 +1,10 @@
 # DataDesk
 
+- [How to login to the Azure Portal](./README.md#how-to-login-to-the-azure-portal)
+- [Before to begin, check the prerequisites](./README.md#before-to-begin-check-the-prerequisites)
+- [Azure Storage Explorer](./README.md#azure-storage-explorer)
+- [How to play with Azure OpenAI](../Attendees/README.md#how-to-play-with-azure-open-ai)
+
 ## How to login to the Azure Portal
 
 You should have received an invitation by email to join the Hackaton, so you will use your own identity information to log on the Azure Portal and access to Azure Ressources.
@@ -12,11 +17,9 @@ You should have received an invitation by email to join the Hackaton, so you wil
 
 ![](./Pictures/Login2.png)
 
-
 4. If you are properly authenticated, this page should appear. Click on the "Maybe later" Button
 
 ![](./Pictures/Portal1.png)
-
 
 
  5. On the Top Left, click on the **Show Portal Menu** and **select Resource groups**
@@ -30,7 +33,7 @@ You should have received an invitation by email to join the Hackaton, so you wil
 In the rg-shareddata resource group there is only a storage account where all the attendees could pickup data.
 In the rg-hkt-datadesk, some resources are already available, including Azure OpenAI where you can play with.
 
-Go to [How to play with Azure Open AI](../Attendees/README.md#how-to-play-with-azure-open-ai) if you want more details
+Go to [How to play with Azure Open AI](../Attendees/readme.md#how-to-play-with-azure-open-ai) if you want more details
 
 
 

@@ -4,8 +4,8 @@ Hackaton Def : *A hackathon is an event that brings together experts and creates
 
 -  [How to login to the Azure Portal](./README.md#how-to-login-to-the-azure-portal)
 -  [Before to begin check the prerequisites](./README.md#before-to-begin-check-the-prerequisites)
-
-
+-  [How to deploy a container to Azure (Optional)](./README.md#how-to-deploy-a-container-to-azure-optional)
+-  [How to play with Azure Open AI](./README.md#how-to-play-with-azure-open-ai)
 
 ## How to login to the Azure Portal
 
@@ -235,6 +235,9 @@ For this hackathon use the embeddings model, *text-embedding-ada-002*
 To avoid any confusion we do suggest providing the same to your deployment as the intial model name:
 
 ![](./Pictures/OAIDeploymentName.png)
+
+[Azure Open AI Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
+
 
 
 ## How to create/deploy an Azure function to Azure
