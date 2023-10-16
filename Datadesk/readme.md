@@ -13,7 +13,6 @@ You should have received an invitation by email to join the Hackaton, so you wil
 ![](./Pictures/Login2.png)
 
 
-
 4. If you are properly authenticated, this page should appear. Click on the "Maybe later" Button
 
 ![](./Pictures/Portal1.png)
@@ -24,11 +23,16 @@ You should have received an invitation by email to join the Hackaton, so you wil
 
 ![](./Pictures/Portal2.png)
 
-6. You should see all the teams resource groups and the rg-hack-datadesk group and the rg-lef-SharedData
+6. You should see all the teams resource groups, the rg-hkt-datadesk group (it's yours) and the rg-SharedData where all the commun data are available
 
 ![](./Pictures/Portal3.png)
 
-7. Open It, some resources are already available.
+In the rg-shareddata resource group there is only a storage account where all the attendees could pickup data.
+In the rg-hkt-datadesk, some resources are already available, including Azure OpenAI where you can play with.
+
+Go to [How to play with Azure Open AI](../Attendees/readme.md#how-to-play-with-azure-open-ai) if you want more details
+
+
 
 ![](./Pictures/Portal4.png)
 
@@ -90,3 +94,4 @@ You could check in the Azure portal https://portal.azure.com and open the ***rg-
 - Then select the destination storage account open the ***document*** container  then paste
 
 ![](./Pictures/Explorer8.png)
+

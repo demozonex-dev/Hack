@@ -27,11 +27,13 @@ You should have received an invitation by email to join the Hackaton, so you wil
 
 ![](./Pictures/Portal2.png)
 
-6. You should see your team's group resource and the rgh-lef-SharedData
+6. You should see your team resource group (i.e rg-hkt-XXX) and the rg-shareddata where all the commun data are available
+
+
 
 ![](./Pictures/Portal3.png)
 
-7. Open It, some resources are already available.
+7. Open you resource group, some resources are already available for you to play with 
 
 ![](./Pictures/Portal4.png)
 
@@ -64,6 +66,14 @@ For the purpose of this Hackaton, you could use Visual Studio Code as editor.
 3. [Dowwnload az cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
     - [Get started with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
+
+
+4. - [ download Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)
+
+- [Get started with Storage Explorer](https://learn.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
+
+- [How to copy files with Azure Storage Explorer](../DataDesk/readme.md#azure-storage-explorer)
+
 
 ## How to deploy a container to Azure (Optional)
 
@@ -129,7 +139,6 @@ If you get ***Gateway time out*** retry to browse.
 
 ![](./Pictures/AcrBuild2.png)
 
-    
 
 ## How to play with Azure Open AI
 
