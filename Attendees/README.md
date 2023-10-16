@@ -2,6 +2,11 @@
 
 Hackaton Def : *A hackathon is an event that brings together experts and creates a collaborative environment for solving a certain problem.*  
 
+-  [How to login to the Azure Portal](./README.md#how-to-login-to-the-azure-portal)
+-  [Before to begin check the prerequisites](./README.md#before-to-begin-check-the-prerequisites)
+
+
+
 ## How to login to the Azure Portal
 
 You should have received an invitation by email to join the Hackaton, so you will use your own identity information to log on the Azure Portal and access to Azure Ressources.
@@ -72,7 +77,7 @@ For the purpose of this Hackaton, you could use Visual Studio Code as editor.
 
 - [Get started with Storage Explorer](https://learn.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
-- [How to copy files with Azure Storage Explorer](../DataDesk/readme.md#azure-storage-explorer)
+- [How to copy files with Azure Storage Explorer](../DataDesk/README.md#azure-storage-explorer)
 
 
 ## How to deploy a container to Azure (Optional)
