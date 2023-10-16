@@ -113,7 +113,7 @@ ENTRYPOINT ["pm2", "start", "--no-daemon", "/opt/startup/default-static-site.js"
 
     ***az acr build -t [REGISTRY NAME].azurecr.io/testhack:latest -g [RESOURCE GROUP NAME] -r [REGISTRY NAME] . --platform "linux"***
 
-    ex : az acr build -t ***"acrhbel200.azurecr.io/testhack:latest"*** -g ***"rg-hackbelgique10"*** -r ***"acrhbel200"** ***.*** --platform "linux"
+    ex : az acr build -t "acrhhktXXX.azurecr.io/testhack:latest" -g "rg-hkt-XXX" --registry  "acrhhktXXX" . --platform "linux"
 
     > Note: Don't forget the character "." 
 
