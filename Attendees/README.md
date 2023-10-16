@@ -8,6 +8,7 @@ Hackaton Def : *A hackathon is an event that brings together experts and creates
 -  [How to play with Azure Open AI](./README.md#how-to-play-with-azure-open-ai)
 -  [Azure Storage Explorer](../Datadesk/readme.md#azure-storage-explorer)
 
+
 ## How to login to the Azure Portal
 
 You should have received an invitation by email to join the Hackaton, so you will use your own identity information to log on the Azure Portal and access to Azure Ressources.
@@ -161,7 +162,7 @@ Before to begin you need to change some settings.
 
     1. In the left pane select **Keys and Enpoint**, copy **KEY 1** and the Language APIs URL
 
-3. Create deployment (See Section [Create deployment](#create-deployment))
+3. Create deployment (See Section [Create deployment](#create-deployment))    
 
 2. Open the XXXX-site app service.
 
@@ -187,6 +188,21 @@ Check the following parameters.
   - Then select Check deployment if all work fine, your are ready to add your content.
 
 ![](./Pictures/StreamIt2.png)
+
+Important : If you get the following message
+
+![](./Pictures/ErrorCheck1.png)
+
+1.  In the OpenAI portal, create deployment name ***text-davinci-003*** as model choose ***gpt-4***
+
+2. Open the XXXX-site app service.
+
+3. In the left pane ->Configuration->
+
+-  OPENAI_DEPLOYMENT_TYPE = Change ***Text*** by ***Chat***
+
+4. Try again to check the configuration
+
 
 ### Create deployment
 
