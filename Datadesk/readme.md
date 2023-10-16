@@ -30,7 +30,7 @@ You should have received an invitation by email to join the Hackaton, so you wil
 In the rg-shareddata resource group there is only a storage account where all the attendees could pickup data.
 In the rg-hkt-datadesk, some resources are already available, including Azure OpenAI where you can play with.
 
-Go to [How to play with Azure Open AI](../Attendees/readme.md#how-to-play-with-azure-open-ai) if you want more details
+Go to [How to play with Azure Open AI](../Attendees/README.md#how-to-play-with-azure-open-ai) if you want more details
 
 
 
