@@ -193,7 +193,7 @@ Important : If you get the following message
 
 ![](./Pictures/ErrorCheck1.png)
 
-1.  In the OpenAI portal, create deployment name ***text-davinci-003*** as model choose ***gpt-4***
+1.  In the OpenAI portal, create a [new deployment](#create-deployment) named ***text-davinci-003*** and choose ***gpt-4***
 
 2. Open the XXXX-site app service.
 
@@ -202,6 +202,24 @@ Important : If you get the following message
 -  OPENAI_DEPLOYMENT_TYPE = Change ***Text*** by ***Chat***
 
 4. Try again to check the configuration
+
+5. If all works fine, you are ready to add your first documents and begin to chat with Azure OpenAI.
+
+6. Your First Chat with Azure OpenAI
+
+![](./Pictures/StreamIt3.png)
+
+You probably get nothing, because you don't have added any document yet 
+
+6. Select Add Document, and add your first document.
+
+![](./Pictures/StreamIt4.png)
+
+
+Then try to ask something usefull
+
+![](./Pictures/StreamIt5.png)
+
 
 
 ### Create deployment
