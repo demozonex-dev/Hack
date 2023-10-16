@@ -1,7 +1,7 @@
 ## 
 
 
-$AADGroups=az ad group list --query "[?contains(displayName, 'HKT')].{id: id, displayName: displayName}" | ConvertFrom-Json
+$AADGroups=az ad group list --query "[?contains(displayName, 'hkt')].{id: id, displayName: displayName}" | ConvertFrom-Json
 
 $id=az group show -g "rg-SharedData" --query id
 $ResourceGroupName="rg-SharedData"
@@ -9,7 +9,7 @@ $ResourceGroupName="rg-SharedData"
 Foreach ($AADGroup in $AADGroups)
 {
            
-            if ($AADGroup.displayName -eq "HKT-DATADESK")
+            if ($AADGroup.displayName -eq "hkt-datadesk")
             {
                 continue
             }
