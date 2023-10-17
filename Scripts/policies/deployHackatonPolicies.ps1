@@ -8,7 +8,7 @@
 
 
 #### Settings section
-$rgScanPrefix = "rg-hack-"
+$rgScanPrefix = "rg-hkt-"
 
 # to retieve parameter value use the (Get-AzPolicyAssignment -scope $rg.ResourceId)[INDEXOFPOLICY].Properties.Parameters | ConvertTo-Json
 #### Retrieving built-in policy definitions
