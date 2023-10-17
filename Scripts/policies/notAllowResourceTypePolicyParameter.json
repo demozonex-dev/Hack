@@ -1,9 +1,0 @@
-{
-    "listOfResourceTypesNotAllowed":  {
-                                          "value":  [
-                                                        "microsoft.network/applicationgateways",
-                                                        "microsoft.network/azurefirewalls",
-                                                        "microsoft.network/dnszones"
-                                                    ]
-                                      }
-}
