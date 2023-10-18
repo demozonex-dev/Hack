@@ -58,7 +58,7 @@ Go to [How to play with Azure Open AI](../Attendees/readme.md#how-to-play-with-a
 
 ![](./Pictures/Explorer1.png)
 
-- First you need to sign to Azure with your credentials
+- First you need to sign in to Azure with your credentials
 
 ![](./Pictures/Explorer2.png)
 
