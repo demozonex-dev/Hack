@@ -2,10 +2,10 @@
 
 Hackaton Def : *A hackathon is an event that brings together experts and creates a collaborative environment for solving a certain problem.*  
 
--  [How to login to the Azure Portal](./readmeAttendees.md#how-to-login-to-the-azure-portal)
--  [Before to begin check the prerequisites](./readmeAttendees.md#before-to-begin-check-the-prerequisites)
--  [How to deploy a container to Azure (Optional)](./readmeAttendees.md#how-to-deploy-a-container-to-azure-optional)
--  [How to play with Azure Open AI](./readmeAttendees.md#how-to-play-with-azure-open-ai)
+-  [How to login to the Azure Portal](./readme.md#how-to-login-to-the-azure-portal)
+-  [Before to begin check the prerequisites](./readme.md#before-to-begin-check-the-prerequisites)
+-  [How to deploy a container to Azure (Optional)](./readme.md#how-to-deploy-a-container-to-azure-optional)
+-  [How to play with Azure Open AI](./readme.md#how-to-play-with-azure-open-ai)
 -  [Azure Storage Explorer](../Datadesk/readme.md#azure-storage-explorer)
 
 

@@ -3,7 +3,7 @@
 - [How to login to the Azure Portal](./readme.md#how-to-login-to-the-azure-portal)
 - [Before to begin, check the prerequisites](./readme.md#before-to-begin-check-the-prerequisites)
 - [Azure Storage Explorer](./readme.md#azure-storage-explorer)
-- [How to play with Azure OpenAI](../Attendees/readmeAttendees.md#how-to-play-with-azure-open-ai)
+- [How to play with Azure OpenAI](../Attendees/readme.md#how-to-play-with-azure-open-ai)
 
 ## How to login to the Azure Portal
 
