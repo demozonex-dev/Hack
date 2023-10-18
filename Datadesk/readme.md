@@ -115,7 +115,7 @@ name it as you want but in lowercase. for example ***dataset***
 
 ![](./Pictures/Explorer9.png)
 
-
+- Select the team's Storage Account
 
 ![](./Pictures/Explorer10.png)
 
