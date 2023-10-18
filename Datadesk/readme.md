@@ -131,6 +131,6 @@ If you want to easily identify the storage account for a team.
 
 - Open the teams's resource group: ex ***rg-hkt-fr1***
 
-- In the section Tags, pick the team name and the deployprefix. Here ***hhkt895***
+- In the section Tags, notice  the team name,  for example ***hkt-fr1*** and the deployprefix ***hhkt895***
 
 ![](./Pictures/CopyFile3.png)
