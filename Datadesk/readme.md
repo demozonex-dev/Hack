@@ -115,7 +115,7 @@ name it as you want but in lowercase. for example ***dataset***
 
 ![](./Pictures/Explorer9.png)
 
-- Then select the destination storage account open the ***document*** container  then paste
+
 
 ![](./Pictures/Explorer10.png)
 
