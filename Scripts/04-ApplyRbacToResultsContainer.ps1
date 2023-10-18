@@ -4,7 +4,7 @@
 $SubscriptionId=az account show --query id
 $storage=az resource list -g rg-shareddata --query "[?type == 'Microsoft.Storage/storageAccounts'].{name: name}" | convertfrom-json
 $StorageName=$storage.name
-$scopeId="/subscriptions/$SubscriptionId/resourceGroups/rg-shareddata/providers/Microsoft.Storage/storageAccounts/$StorageName/blobServices/default/containers/results"
+$scopeId="/subscriptions/$SubscriptionId/resourceGroups/rg-shareddata/providers/Microsoft.Storage/storageAccounts/$StorageName/blobServices/default/containers/result"
 
 
 
