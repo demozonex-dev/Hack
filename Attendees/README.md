@@ -211,7 +211,8 @@ Important : If you get the following message
 
 You probably get nothing, because you don't have added any document yet 
 
-6. Select Add Document, and add your first document.
+6. Select ***Add Document*** and add your first document. You can also add multiple files using ***Add Documents in Batch***
+
 
 ![](./Pictures/StreamIt4.png)
 

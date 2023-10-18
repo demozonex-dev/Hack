@@ -71,30 +71,66 @@ Go to [How to play with Azure Open AI](../Attendees/readme.md#how-to-play-with-a
 ![](./Pictures/Explorer4.png)
 
 
-> Important  : The storage accounts begining with ***hxxxxstr*** are storage for the attendees's teams. The storage ***hdatXXXstr is your***. 
-You could check in the Azure portal https://portal.azure.com and open the ***rg-hack-datadesk***
 
 ### Copy a folder/sub folders with Azure Storage Explorer
 
--  Open the Storage ***hdatXXXstr*** then select the container named "document"
+Before to copy, if you want to identify your storage account.
 
-> Note: It's important for the Hackaton and the sample app to choose the container document
+- Open the ***rg-hkt-datadesk*** resource group in the portal https://azure.portal.com,
 
-![](./Pictures/Explorer5.png)
+![](./Pictures/CopyFile1.png)
 
-- **Upload** local folder you want to copy to Azure Storage
+- Find your storage account named ***hhktXXXstr***
+
+![](./Pictures/CopyFile2.png)
+ 
+
+- Go back to ***Azure Explorer***
+- Select ***Blob Contenaires***, click right  then ***Create Blob container***
+name it as you want but in lowercase. for example ***dataset***
+
+![](./Pictures/CopyFile5.png)
+
+![](./Pictures/CopyFile6.png)
+
+- **Upload** local folder or file you want to copy to Azure Storage in the previous container.
+
+- Select Upload ***Folder or File*** 
 
 ![](./Pictures/Explorer6.png)
-
- 
- ### Copy from Storage account to Storage account
-
-- Select the source folder
+    
+- Then select a folder or a file
 
 ![](./Pictures/Explorer7.png)
 
-
-- Then select the destination storage account open the ***document*** container  then paste
+- Azure Explorer copy the folder from  your pc to the storage account
 
 ![](./Pictures/Explorer8.png)
 
+
+ 
+ ### Copy from the datadesk Storage Account to teams's Storage Account
+
+-  Select the folder you want to copy, then ***Copy*** button 
+
+![](./Pictures/Explorer9.png)
+
+- Then select the destination storage account open the ***document*** container  then paste
+
+![](./Pictures/Explorer10.png)
+
+- Create a new blob container (ex ***dataset***)
+
+- Select this new container, then paste
+
+![](./Pictures/Explorer11.png)
+
+
+If you want to easily identify the storage account for a team. 
+- Go back to the Azure Portal: https://portal.azure.com
+
+- Open the teams's resource group: ex ***rg-hkt-fr1***
+
+- In the section Tags, pick the team name and the deployprefix. Here ***hhkt895***
+
+![](./Pictures/CopyFile3.png)
