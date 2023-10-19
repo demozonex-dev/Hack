@@ -5,6 +5,8 @@
 - [Azure Storage Explorer](./readme.md#azure-storage-explorer)
 - [How to play with Azure OpenAI](../Attendees/README.md#how-to-play-with-azure-open-ai)
 
+- [Changing the quota for a Deployment model](./readme.md#changing-the-quota-for-a-deployment-model)
+
 ## How to login to the Azure Portal
 
 You should have received an invitation by email to join the Hackaton, so you will use your own identity information to log on the Azure Portal and access to Azure Ressources.
@@ -134,3 +136,12 @@ If you want to easily identify the storage account for a team.
 - In the section Tags, notice  the team name,  for example ***hkt-fr1*** and the deployprefix ***hhkt895***
 
 ![](./Pictures/CopyFile3.png)
+
+
+## Changing the quota for a Deployment model
+
+- Open the Azure OpenAI Studio
+
+- Select a Deployment 
+
+![](./Pictures/)

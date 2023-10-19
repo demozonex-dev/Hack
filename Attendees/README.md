@@ -6,6 +6,7 @@ Hackaton Def : *A hackathon is an event that brings together experts and creates
 -  [Before to begin check the prerequisites](./README.md#before-to-begin-check-the-prerequisites)
 -  [How to deploy a container to Azure (Optional)](./README.md#how-to-deploy-a-container-to-azure-optional)
 -  [How to play with Azure Open AI](./README.md#how-to-play-with-azure-open-ai)
+- [Changing the quota for a Deployment model](./readme.md#changing-the-quota-for-a-deployment-model)
 -  [Azure Storage Explorer](../Datadesk/readme.md#azure-storage-explorer)
 
 
@@ -287,3 +288,49 @@ To avoid any confusion we do suggest providing the same to your deployment as th
 - [C#: Develop Azure Functions by using Visual Studio Code](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=node-v3%2Cpython-v2%2Cisolated-process&pivots=programming-language-csharp)
 
 > Note: The Azure function is already created in Azure, and available in the resource group.
+
+
+
+## Changing the quota for a Deployment model
+
+- Open the Azure OpenAI Studio
+
+- Select a Deployment for exampele ***text-davinci-003*** (model gpt-4)
+
+- Edit the deployment
+
+![](./Pictures/Quota1.png)
+
+- Select **Advanced Option**
+
+![](./Pictures/Quota2.png)
+
+- Then reduce the quota to 5k and ***Save and close***
+
+![](./Pictures/Quota3.png)
+
+- If the problem is not fixed, you are going to create a new Azure OpenAI resource 
+
+- Go to the azure portal : https://portal.azure.com
+
+- Open you resource group then select create
+
+![](./Pictures/Create1.png)
+
+- In the search box type ***Azure OpenAI***
+
+![](./Pictures/Create2.png)
+
+- Then Create
+
+![](./Pictures/Create3.png)
+
+
+- Important here, in orer to have access to GPT-4 choose the ***Sweden Central*** region
+  Give a unique name and choose Standard S0 as pricing tier
+
+![](./Pictures/Create4.png)
+
+- Then next, next, next and finally **Create**
+
+**Important don't forget to reduce the quota when creating a new deployment**
